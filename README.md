@@ -5,7 +5,7 @@ Projeto de TCC que consiste no desenvolvimento de um plugin para o sistema NETBO
 
 A análise de requisitos aconteceu de forma progressiva, seguindo um fluxo de utilização de metodologias ágeis, como por exemplo, a utilização da dinâmica É, não é; Faz, não faz. Outras ferramentas e diagramas que foram utilizados em paralelo com as metodologias são as conversas com o interessado, Estórias de usuário, Protótipos de Tela, e Diagramas UML, sendo eles, Diagrama de Casos de Uso e Diagrama de Classes.
 
-|Serviços |Segunda a Sexta | Sábados | Feriados |
+|É |Não É|
 |---|---|---|---|
 |Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
 |Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
