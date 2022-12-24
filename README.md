@@ -9,6 +9,7 @@ A análise de requisitos aconteceu de forma progressiva, seguindo um fluxo de ut
 |---|---|
 |Clínica geral | 08h - 14h  |
 |Psicologia | 08h - 14h  |
+
 |É |Não É|
 |---|---|
 |Pediatria | 08h - 18h |
