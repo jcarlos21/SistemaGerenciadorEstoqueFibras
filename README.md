@@ -1,4 +1,4 @@
-# SistemaGerenciadorEstoqueFibras
+# Sistema Gerenciador de Estoque Fibras Ópticas
 Projeto de TCC que consiste no desenvolvimento de um plugin para o sistema NETBOX. O plugin fará o gerenciamento de estoque de fibras.
 
 ## Parte 1: Documentação de requisitos
