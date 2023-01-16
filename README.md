@@ -9,6 +9,10 @@ A análise de requisitos aconteceu de forma progressiva, seguindo um fluxo de ut
 
 ## Parte 3: Codificação da aplicação
 
+### Configuração do ambiente:
+
+O sistema operacional escolhido foi o Linux, com a distribuição Ubuntu. Em comparação com outros sistemas, o Ubuntu tem uma melhor performance para o desenvolvimento do plugin.
+
 ## Parte 4: Testagem
 
 ## Parte 5: Implementação
