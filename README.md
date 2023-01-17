@@ -50,8 +50,12 @@ No arquivo docker-compose.yml fez-se a alteração:
 
 Uma outra alteraçaõ foi feita nas linhas:
 
-- onde estava "" fez-se a alteração para ""
-- onde estava "" fez-se a alteração para ""
+- onde estava "DEBUG = _environ_get_and_map('DEBUG', 'False', _AS_BOOL)" fez-se a alteração para "DEBUG = _environ_get_and_map('DEBUG', 'True', _AS_BOOL)"
+- onde estava "DEVELOPER = _environ_get_and_map('DEVELOPER', 'False', _AS_BOOL)" fez-se a alteração para "DEVELOPER = _environ_get_and_map('DEVELOPER', 'True', _AS_BOOL)"
+
+A linha abaixo foi inserida para que tornasse possível a exibição de erros:
+
+- TEMPLATE_DEBUG = True
 
 Após esses procedimentos, é preciso reiniciar a máquina virtual, abrir a pasta do netbox no VS Code, abrir um novo terminal e digitar os seguintes comando que inicializam os containers:
 
