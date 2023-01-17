@@ -48,10 +48,17 @@ Os primeiros comandos usando o Docker são mostrados abaixo e servem para config
 No arquivo docker-compose.yml fez-se a alteração:
 - onde estava user: 'unit:root' foi feita a troca por user: '0'
 
+Uma outra alteraçaõ foi feita nas linhas:
+
+- onde estava "" fez-se a alteração para ""
+- onde estava "" fez-se a alteração para ""
+
 Após esses procedimentos, é preciso reiniciar a máquina virtual, abrir a pasta do netbox no VS Code, abrir um novo terminal e digitar os seguintes comando que inicializam os containers:
 
 - docker-compose pull
 - docker-compose up
+
+Após a inserção dos comandos acima, os containers serão carregados. O cotainer "" deve ser aberto por meio de um Attach Visual Code e logo em seguida abrir a pasta "/opt/netbox/netbox" para ter acesso ao ambiente de desenvolvimento.
 
 ## Parte 4: Testagem
 
