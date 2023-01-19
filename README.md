@@ -26,6 +26,11 @@ Uma vez instalada e totalmente configurada, os próximos passos são as atualiza
 
 Obs: aptitude é um gerenciador de pacotes para a instalação nas distribuições Debian e Ubuntu.
 
+É preciso instalar o pip do Python3 e o Django. Logo:
+
+- sudo apt install python3-pip
+- python3 -m pip install Django
+
 A IDE para desenvolvimento escolhida foi o Visual Studio Code, baixado diretamente do site da Microsoft na pasta de downloads e no formato .deb. A instalação via terminal Linux é possível com o seguinte comando:
 
 dpkg -i code_1.74.2-1671533413_amd64.deb
@@ -33,7 +38,6 @@ dpkg -i code_1.74.2-1671533413_amd64.deb
 O desenvolvimento do plug-in para o NetBox requer o uso de containers do Docker, onde estão armazenados todo o sistema NetBox. Para tornar isso possível é necessário fazer a instalação do Docker e Docker Compose com os seguintes comandos:
 
 - aptitude install docker docker-compose -y
-
 
 Para acessar as imagens dos containers e o ambiente do NetBox é preciso baixar seu repositório github feito a partir de um clone desse repositório. O seguinte comando foi usado:
 
@@ -69,6 +73,10 @@ Para instalar o git no container faça o seguinte:
 - apt-get update
 - apt-get upgrade
 - apt-get install git
+
+Passos para criação e configuração do plugin:
+
+- <a href="https://github.com/netbox-community/netbox-plugin-tutorial/blob/main/tutorial/step01-initial-setup.md"> Step01_Initial-setup<a>
 
 ## Parte 4: Testagem
 
