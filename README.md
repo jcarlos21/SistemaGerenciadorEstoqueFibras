@@ -26,9 +26,10 @@ Uma vez instalada e totalmente configurada, os próximos passos são as atualiza
 
 Obs: aptitude é um gerenciador de pacotes para a instalação nas distribuições Debian e Ubuntu.
 
-É preciso instalar o pip do Python3. Logo:
+É preciso instalar o pip do Python3 e o Django. Logo:
 
 - sudo apt install python3-pip
+- python3 -m pip install Django
 
 A IDE para desenvolvimento escolhida foi o Visual Studio Code, baixado diretamente do site da Microsoft na pasta de downloads e no formato .deb. A instalação via terminal Linux é possível com o seguinte comando:
 
