@@ -74,6 +74,8 @@ Para instalar o git no container faça o seguinte:
 - apt-get upgrade
 - apt-get install git
 
+### Criação e configuração dos plugin, models e views no Netbox:
+
 Passos para criação e configuração do plugin:
 
 - <a href="https://github.com/netbox-community/netbox-plugin-tutorial/blob/main/tutorial/step01-initial-setup.md"> Step01_Initial-setup<a>
