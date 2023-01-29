@@ -7,6 +7,10 @@ A análise de requisitos aconteceu de forma progressiva, seguindo um fluxo de ut
 
 ## Parte 2: Projeto de banco de dados
 
+### Modelagem Conceitual: 
+
+Consiste na modelagem de banco de dados a nível de entendimento de como as entendades estarão organizadas.
+
 ## Parte 3: Codificação da aplicação
 
 ### Configuração do ambiente:
