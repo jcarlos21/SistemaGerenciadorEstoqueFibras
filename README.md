@@ -56,7 +56,7 @@ Os primeiros comandos usando o Docker são mostrados abaixo e servem para config
 No arquivo docker-compose.yml fez-se a alteração:
 - onde estava user: 'unit:root' foi feita a troca por user: '0'
 
-Uma outra alteraçaõ foi feita nas linhas:
+Uma outra alteraçaõ foi feita nas linhas do arquivo configuration.py:
 
 - onde estava "DEBUG = _environ_get_and_map('DEBUG', 'False', _AS_BOOL)" fez-se a alteração para "DEBUG = _environ_get_and_map('DEBUG', 'True', _AS_BOOL)"
 - onde estava "DEVELOPER = _environ_get_and_map('DEVELOPER', 'False', _AS_BOOL)" fez-se a alteração para "DEVELOPER = _environ_get_and_map('DEVELOPER', 'True', _AS_BOOL)"
