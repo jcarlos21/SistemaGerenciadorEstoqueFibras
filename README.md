@@ -69,6 +69,8 @@ Após esses procedimentos, é preciso reiniciar a máquina virtual, abrir a past
 
 - docker-compose pull
 - docker-compose up
+ou 
+- docker--compose up -d
 
 Após a inserção dos comandos acima, os containers serão carregados. O cotainer "netboxcommunity/netbox:v3.4-2.4.0 (c12f162eb882)" deve ser aberto por meio de um Attach Visual Code e logo em seguida abrir a pasta "/opt/netbox/netbox" (se attach não abrir esta pasta de imediato) para ter acesso ao ambiente de desenvolvimento.
 
