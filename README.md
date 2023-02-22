@@ -52,7 +52,7 @@ Os primeiros comandos usando o Docker são mostrados abaixo e servem para config
 
 - cd netbox-docker/
 - cp docker-compose.override.yml.example docker-compose.override.yml
-- usermod -aG docker jose
+- sudo usermod -aG docker jose
 
 No arquivo docker-compose.yml fez-se a alteração:
 - onde estava user: 'unit:root' foi feita a troca por user: '0'
