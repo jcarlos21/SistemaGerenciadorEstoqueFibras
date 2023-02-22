@@ -25,6 +25,7 @@ Uma vez instalada e totalmente configurada, os próximos passos são as atualiza
 - sudo su
 - apt-get update
 - apt-get upgrade
+- sudo apt update && sudo apt upgrade
 - apt install aptitude -y
 - aptitude install wget pluma vim -y
 
